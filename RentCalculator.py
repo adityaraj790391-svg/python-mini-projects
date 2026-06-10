@@ -19,7 +19,7 @@ maintainance = int(input("Enter the maintenance charge: "))
 
 total_electricity_charge = electricity * charge_per_unit
 
-total_amount = rent + food + total_electricity_charge + maid + wifi 
+total_amount = rent + food + total_electricity_charge + maid + wifi + maintainance
 
 amount_per_person = total_amount / persons
 
