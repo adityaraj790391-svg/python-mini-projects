@@ -17,6 +17,7 @@ persons = int(input("Enter the number of persons living in room/flat: "))
 wifi = int(input("Enter the wifi charge: "))
 maintainance = int(input("Enter the maintenance charge: "))
 
+
 total_electricity_charge = electricity * charge_per_unit
 
 total_amount = rent + food + total_electricity_charge + maid + wifi + maintainance
