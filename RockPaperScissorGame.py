@@ -38,3 +38,7 @@ elif (user_choice == "Rock" and computer_choice == "Scissors") or (user_choice =
     print("User wins")
 else:
     print("Computer wins")
+
+
+## Another way to write the same code is:
+
