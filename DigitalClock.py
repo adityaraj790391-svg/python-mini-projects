@@ -3,8 +3,6 @@ from time import strftime
 
 root = tk.Tk()
 root.title("Digital Clock")
-root.geometry("400x200")
-root.configure(bg="black")
 
 def time():
     string = strftime("%H:%M:%S %p \n %D")
