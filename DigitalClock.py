@@ -1,5 +1,5 @@
 import tkinter as tk
-import time
+from time import strftime
 
 root = tk.Tk()
 root.title("Digital Clock")
