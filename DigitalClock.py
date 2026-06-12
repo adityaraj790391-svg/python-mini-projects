@@ -7,3 +7,4 @@ root.geometry("400x200")
 root.configure(bg="black")
 
 def time():
+    strimg
