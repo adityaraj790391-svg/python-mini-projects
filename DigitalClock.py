@@ -8,4 +8,5 @@ root.configure(bg="black")
 
 def time():
     string = time.strftime("%H:%M%S \n %D")
-    
+    label.config(text=string)
+
