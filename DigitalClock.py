@@ -2,7 +2,7 @@ import tkinter as tk
 from time import strftime
 
 root = tk.Tk()
-root.title("Digital Clock Application De")
+root.title("Digital Clock Application Dev")
 
 def time():
     string = strftime("%H:%M:%S %p \n %D")
