@@ -1,1 +1,1 @@
-## TKINTER Module is 
+## TKINTER Module is a library 
