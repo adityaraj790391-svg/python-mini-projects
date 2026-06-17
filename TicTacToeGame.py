@@ -11,3 +11,9 @@ def check_winner():
             buttons[combo[2]].config(bg="green")
             messagebox.showinfo("Game Over", f"Player {buttons[combo[0]]['text']} wins!")
             root.quit()
+
+def button_click(index):
+    if buttons[index]["text"] == "" and not winner:
+        buttons[index][text] = current_player
+        check_winner()
+        toggle_player()
