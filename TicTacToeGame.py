@@ -17,3 +17,9 @@ def button_click(index):
         buttons[index][text] = current_player
         check_winner()
         toggle_player()
+
+
+def toggle_player():
+    global current_player
+    current_player = "O" if current_player == "X" else "X"
+    label.config(text=f"Player {current_player}'s turn")
