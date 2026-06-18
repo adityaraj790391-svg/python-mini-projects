@@ -14,7 +14,7 @@ def check_winner():
 
 def button_click(index):
     if buttons[index]["text"] == "" and not winner:
-        buttons[index][text] = current_player
+        buttons[index]["text"] = current_player
         check_winner()
         toggle_player()
 
