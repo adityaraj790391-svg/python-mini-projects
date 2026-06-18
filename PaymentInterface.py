@@ -29,3 +29,4 @@ paytm_qr.save("paytm_qr.png")
 
 phonepe_qr.show()
 gpay_qr.show()
+paytm_qr.show()
