@@ -28,4 +28,4 @@ paytm_qr.save("paytm_qr.png")
 # Displaying the QR codes using pillow library
 
 phonepe_qr.show()
-
+gpay_qr.show()
