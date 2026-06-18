@@ -21,3 +21,6 @@ paytm_qr = qrcode.make(paytm_url)
 
 # Saving the QR codes as images
 
+phonepe_qr.save("phonepe_qr.png")
+gpay_qr.save("gpay_qr.png")
+
