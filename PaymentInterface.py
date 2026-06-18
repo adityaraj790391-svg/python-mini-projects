@@ -16,3 +16,4 @@ paytm_url = f"upi://pay?pa={upi_id}&pn=YourName&am=10&cu=INR&tn=Payment for serv
 # Generating QR codes for each payment app
 
 phonepe_qr = qrcode.make(phonepe_url)
+gpay_qr = qrcode.make(gpay_url)
