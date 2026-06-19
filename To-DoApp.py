@@ -18,5 +18,8 @@ def task():
             tasks.append(add)
             print(f"Task '{add}' has been added successfully!")
 
-            
+        elif operation == 2:
+            updated_val = input("Enter the task you want to update: ")
+
+
 
