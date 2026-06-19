@@ -23,6 +23,20 @@ def task():
             if updated_val in tasks:
                 up = input("Enter the new task: ")
                 ind = tasks.index(updated_val)
+                tasks[ind] = up
+                print(f"Task '{updated_val}' has been updated to '{up}' successfully!")
+
+        elif operation == 3:
+            deleted_val = input("Enter the task you want to delete: ")
+            if deleted_val in tasks:
+                ind = tasks.index(deleted_val)
+                del tasks[ind]
+                print(f"Task '{deleted_val}' has been deleted successfully!")
+
+        elif operation == 4:
+            print(f"Today's tasks are: {tasks}")
+
+        
 
 
 
