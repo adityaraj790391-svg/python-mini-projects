@@ -11,4 +11,6 @@ def task():
     print(f"Tasks added successfully! You have added {total_task} tasks.")
     print(f"Today's tasks are:\n{tasks}")
 
-    while 
+    while True:
+        operation = int(input("Enter 1-Add \n2-Update \n3-Delete \n4-View \n5-Exit/Stop/"))
+
