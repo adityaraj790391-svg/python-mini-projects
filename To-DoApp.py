@@ -20,6 +20,8 @@ def task():
 
         elif operation == 2:
             updated_val = input("Enter the task you want to update: ")
+            if updated_val in tasks:
+                up = input("Enter the new task: ")
 
 
 
