@@ -14,4 +14,9 @@ def task():
     while True:
         operation = int(input("Enter 1-Add \n2-Update \n3-Delete \n4-View \n5-Exit/Stop/"))
         if operation == 1:
+            add = input("Enter the task you want to add: ")
+            tasks.append(add)
+            print(f"Task '{add}' has been added successfully!")
+
+            
 
