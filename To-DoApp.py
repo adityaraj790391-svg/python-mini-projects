@@ -1,1 +1,2 @@
-def task()
+def task():
+    tasks = []
