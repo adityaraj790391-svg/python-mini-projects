@@ -38,3 +38,32 @@ print(var)
 # Initializing an empty dictionary to store student_grades
 
 student_grades = {}
+
+# Adding a new student 
+
+def add_student(name, grade):
+    student_grades[name] = grade
+    print(f"{name} with grade {grade} has been added successfully!")
+
+# Update a student's grade
+
+def update_student(name, new_grade):
+    if name in student_grades:
+        student_grades[name] = new_grade
+        print(f"{name} grade has been updated to {new_grade} successfully!")
+    else:
+        print(f"{name} not found")
+
+# Delete a student name
+
+def delete_student(name):
+    if name in student_grades:
+        del student_grades[name]
+        print(f"{name} has been deleted successfully!")
+    else:
+        print(f"{name} not found")
+
+# View all students and their grades
+
+
+
