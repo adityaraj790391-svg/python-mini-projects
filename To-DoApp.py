@@ -36,7 +36,12 @@ def task():
         elif operation == 4:
             print(f"Today's tasks are: {tasks}")
 
-        
+        elif operation == 5:
+            print("Exiting the To-Do App. Have a great day!")
+            break
 
+        else:
+            print("Invalid Input")
 
+task()
 
