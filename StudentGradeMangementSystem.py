@@ -6,11 +6,15 @@ right side = value
 """
 
 """
-1.
-2.
-3.
-4.
-5.
+1. Add
+2. Update
+3. Delete
+4. View
+5. Exit/Stop
 """
+
+# Basics 
+
+# Create a dictionary
 
 var = {"name": "Alice", "age": 25, "grade": "A"}
