@@ -17,4 +17,6 @@ right side = value
 
 # Create a dictionary
 
-var = {"name": "Alice", "age": 25, "grade": "A"}
+var = {"name": "Veriel", "name": "Luna", "name": "Zeke"}
+
+
