@@ -18,5 +18,10 @@ right side = value
 # Create a dictionary
 
 var = {"name": "Veriel", "name": "Luna", "name": "Zeke"}
+print(var)  
+
+# Accessing an element
+print(var["name"])  
+
 
 
