@@ -1,6 +1,6 @@
 import qrcode
 
-# Taking UPI ID as input from the user
+# Taking UPI ID as a input from the user
 
 upi_id = input("Enter your UPI ID: ")
 
