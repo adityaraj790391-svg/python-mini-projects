@@ -35,7 +35,7 @@ print(var)
 """
 
 
-# Initializing an empty dictionary to store student_grades
+# Initializing an empty dictionary to store student_gradess
 
 student_grades = {}
 
