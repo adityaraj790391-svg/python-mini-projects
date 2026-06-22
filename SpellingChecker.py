@@ -22,14 +22,31 @@ class SpellingCheckerApp:
 
 # Step-4 Returning the corrected text
 
-return ' '.join(corrected_words)
+        return ' '.join(corrected_words)
 
 # Step-5 Running the app
 
 def run(self):
     print("\n---Spelling Checker App---")
 
-    
+    while True:
+
+        text = input("\nEnter a sentence (or type 'exit' to quit): ")
+        if text.lower() == 'exit':
+            print("Exiting the app. Goodbye!")
+            break
+
+        corrected_text = self.correct_text(text)
+        print(f"Corrected Text: {corrected_text}")
+
+
+# Step-6 Main function to run the app
+
+if __name__ == "__main__":
+    app = SpellingCheckerApp()
+    app.run()
+
+
 
 
 
