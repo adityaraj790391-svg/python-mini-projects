@@ -6,6 +6,14 @@ from spellchecker import SpellChecker
 
 class SpellingCheckerApp:
     def __init__(self):
-        self.spell_checker = SpellChecker()
+        self.spell = SpellChecker()
+
+    def correct_text(self, text):
+        words = text.split()
+        corrected_words = []
+
+    
+
+    
 
     
