@@ -12,6 +12,12 @@ class SpellingCheckerApp:
         words = text.split()
         corrected_words = []
 
+        for word in words:
+            corrected_word = self.spell.correction(word)
+            corrected_words.append(corrected_word)
+
+    
+
     
 
     
