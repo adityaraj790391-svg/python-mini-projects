@@ -1,6 +1,6 @@
 # Step-1 Import the important libraries
 
-from spellchecker import SpellChecker
+from spellchecker import SpellChecker  # type: ignore[import]
 
 # Step-2 Creating the app class
 
